@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-color: plum;
+    width: 650px;
+    height: 750px;
+    text-align: center;   
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.item:hover {
+    animation-play-state: paused;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: purple;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: purple;
+}
+
+.animation {
+    animation: coracao 1s linear infinite;
+}
+
+@keyframes coracao {
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0.2;
+    }
+    
+    100% {
+        opacity: 1;
+    }  
+}
+
+
+
